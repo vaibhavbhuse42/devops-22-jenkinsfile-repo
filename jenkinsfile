@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                git branch: 'main', url: 'https://github.com/vaibhavbhuse42/Node-App-On-Ec2.git'
+                git branch: 'main', url: 'https://github.com/vaibhavbhuse42/Web-Application.git'
             }
         }
         stage('build') {
